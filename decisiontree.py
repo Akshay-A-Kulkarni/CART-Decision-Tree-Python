@@ -82,7 +82,6 @@ class DecisionTreeClassifier:
                 node = node.right
         return node.predicted_class
 
-
 def main():
     Xq = features.to_numpy()    
     yq = response.to_numpy()
